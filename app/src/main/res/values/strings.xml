@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PUC contra Covid</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="q1">Nos últimos 10 dias você recebeu o diagnóstico positivo de COVID-19?</string>
+    <string name="q2">Você teve contato com alguma pessoa com diagnóstico positivo de COVID-19 nos últimos 10 dias?</string>
+    <string name="q3">Você apresenta neste momento dois ou mais sintomas listados no aplicativo PUC Mobile?</string>
+
+    <string name="orientation">A Instituição entrará em contato para orientá-lo/a sobre os procedimentos e cuidados com sua saúde</string>
+    <string name="thanks">Obrigado por responder ao questionário</string>
 </resources>
