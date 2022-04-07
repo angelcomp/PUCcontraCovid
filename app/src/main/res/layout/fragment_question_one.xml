@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_margin="23dp"
         android:autoSizeTextType="uniform"
         android:text="@string/q1"
