@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 
 public class AppViewModel extends ViewModel {
     private Integer positiveClicks = 0;
-    private final MutableLiveData<Boolean> completedQuestions = new MutableLiveData<Boolean>(false);
+    private final MutableLiveData<Boolean> completedQuestions = new MutableLiveData<Boolean>();
 
     public void incrementPositiveClick() {
         positiveClicks++;
