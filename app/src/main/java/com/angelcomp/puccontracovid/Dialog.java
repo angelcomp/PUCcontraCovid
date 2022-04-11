@@ -30,7 +30,9 @@ public class Dialog extends DialogFragment {
             @SuppressLint("UseCompatLoadingForDrawables") Drawable image = getResources().getDrawable(R.drawable.alert_covid);
             binding.dialogIcon.setImageDrawable(image);
             binding.dialogTitle.setText(R.string.attention);
+            binding.dialogTitle.setBackgroundResource(R.color.salmon);
             binding.dialogText.setText(R.string.orientation);
+
         }
 
         binding.btnUnderstood.setOnClickListener(new View.OnClickListener() {
